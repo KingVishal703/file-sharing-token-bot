@@ -140,8 +140,11 @@ async def start_command(client: Client, message: Message):
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("🔞 Adult Channel 🔞", url="https://t.me/+f6w_Ok5PXngzMzJl"),
-                  InlineKeyboardButton("About Me", callback_data="about")
+                  InlineKeyboardButton("🍿 Movie Channel 🍿", url="https://t.me/RkBackup1")
                  ],[
+                    InlineKeyboardButton("Update Channel", url="https://t.me/Fizzy_Botz"),
+                    InlineKeyboardButton("About Me", callback_data="about")
+                ],[
                     InlineKeyboardButton("Close", callback_data="close")
                 ]]
             )
