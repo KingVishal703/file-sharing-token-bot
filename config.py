@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "25303461"))
 API_HASH = os.environ.get("API_HASH", "abe6bf86f47e49752225d555284d27bd")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002024454489"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002053305284"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6036448711"))
@@ -54,7 +54,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "🔞 Adult Content  ➥ 「 @GuturGuSeen 」")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "🔞 Adult Content  ➥ 「 https://t.me/+wd2tiT_Zb7llNDA1 」")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
