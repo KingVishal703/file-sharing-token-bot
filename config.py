@@ -63,7 +63,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly. Please join @Adult_Zonn for direct videos"
+USER_REPLY_TEXT = "🔞  𝐖𝐚𝐭𝐜𝐡 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐀𝐝𝐮𝐥𝐭 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 \n\n\n⭕ https://t.me/Adult_Zonn"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6695586027)
